@@ -2,7 +2,7 @@
 
 Pertama kita melihat keseimbangan jumlah dataset yang terdapat di MNIST Dataset. Dalam analisis ini, jumlah data terbukti seimbang, yang dibuktikan dengan perhitungan menggunakan rumus berikut:
 
-\[ CV = \frac{\text{Standard Deviation}}{\text{Mean}} \times 100 \]
+$CV = \frac{\text{Standard Deviation}}{\text{Mean}} \times 100$
 
 Perhitungan Koefisien Varians dilakukan untuk melihat varians data, dan ditemukan bahwa CV mencapai hanya 5%. Selanjutnya, hasil ini juga diperkuat dengan visualisasi distribusi data menggunakan bar chart.
 
