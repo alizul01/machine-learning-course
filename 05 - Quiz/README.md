@@ -7,7 +7,7 @@
 4. Ulfi Mustatiq Abidatul Izza (2141720052)
 5. Muhammad Ali Zulfikar (2141720088)
 
-## Memastikan jumlah data setiap label. Membuktikan data imbalance pada dataset MNIST.
+## Memastikan jumlah data setiap label dan Membuktikan data imbalance pada dataset MNIST
 
 Pertama kita melihat keseimbangan jumlah dataset yang terdapat di MNIST Dataset. Dalam analisis ini, jumlah data terbukti seimbang, yang dibuktikan dengan perhitungan menggunakan rumus berikut:
 
