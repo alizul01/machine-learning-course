@@ -63,6 +63,7 @@ Kemudian, Kelompok 4 melakukan perbandingan antara model SVM (Support Vector Mac
 
 **Kesimpulan**
 
+
 Dari beberapa perbandingan beberapa klasifikasi metode yang sudah kita lakukan diatas dapat simpulkan bahwa:
 - SVC Kernel RBF dengan C = 1 dan Gamma = 0.01
 
