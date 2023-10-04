@@ -79,7 +79,7 @@ Dari beberapa perbandingan beberapa klasifikasi metode yang sudah kita lakukan d
 |-----------|------------|
 | 0.3       | 98%        |
 | 0.2       |      |
-| 0.1       |      |
+| 0.1       | 97.46%     |
   
 - Naive Bayes dengan 5 Parameter
 
