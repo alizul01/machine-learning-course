@@ -69,9 +69,9 @@ Dari beberapa perbandingan beberapa klasifikasi metode yang sudah kita lakukan d
 
 | Test Size | Accuracy   |
 |-----------|------------|
-| 0.3       |      |
-| 0.2       |      |
-| 0.1       |      |
+| 0.3       | 93%        |
+| 0.2       | 93%        |
+| 0.1       | 93%        |
 
 - SVC dengan Hyperparameter Tuning
 
