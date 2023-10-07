@@ -77,8 +77,8 @@ Dari beberapa perbandingan beberapa klasifikasi metode yang sudah kita lakukan d
 
 | Test Size | Accuracy   |
 |-----------|------------|
-| 0.3       | 98%        |
-| 0.2       |      |
+| 0.3       | 97.52%        |
+| 0.2       | 97.56%     |
 | 0.1       | 97.46%     |
   
 - Naive Bayes dengan 5 Parameter
@@ -105,7 +105,7 @@ Dari beberapa perbandingan beberapa klasifikasi metode yang sudah kita lakukan d
 | 0.2       | 82.1%     |
 | 0.1       | 81.8%     |
 
-Sehingga, dari hasil percobaan yang kami lakukan dapat disimpulkan bahwa klasifikasi **SVM dengan Hyperparameter Tuning** memliki akurasi yang paling tinggi yaitu memiliki tingkat akurasi 98% untuk test size 0.3. Sedangkan, pada klasifikasi Naive Bayes Gaussian memiliki tingkat akurasi yang paling rendah yaitu 81.8% untuk test size 0.3 dan 0.1. 
+Sehingga, dari hasil percobaan yang kami lakukan dapat disimpulkan bahwa klasifikasi **SVM dengan Hyperparameter Tuning** memliki akurasi yang paling tinggi yaitu memiliki tingkat akurasi 97.56% untuk test size 0.2. Sedangkan, pada klasifikasi Naive Bayes Gaussian memiliki tingkat akurasi yang paling rendah yaitu 81.8% untuk test size 0.3 dan 0.1. 
 
 Referensi Model:
 [1] [SVC RBF Model MNIST - Ali Zulfikar](https://github.com/alizul01/machine-learning-course/blob/main/05%20-%20Quiz/Quiz_Challenge.ipynb)
