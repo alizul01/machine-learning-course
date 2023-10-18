@@ -17,19 +17,6 @@ Perhitungan Koefisien Varians dilakukan untuk melihat varians data, dan ditemuka
 
 ![Distribusi Data](docs/bar-chart-cv.png)
 
-## Support Vector Machine (SVM)
-
-1. **SVC Kernel RBF dengan C = 1 dan Gamma = 0.01**
-   - Model menggunakan SVC kernel rbf dengan parameter C = 1 dan Gamma = 0.01.
-   - Proses preprocessing melibatkan PCA dengan 60 komponen yang dibagi menjadi data latih sebesar 70% dan data uji sebesar 30%.
-   - Hasil prediksi mencapai akurasi 93%.
-2. **SVC dengan Hyperparameter Tuning**
-   - Model SVC diuji dengan hyperparameter tuning menggunakan GridSearchCV dengan variasi nilai C dan gamma.
-   - Parameter terbaik yang ditemukan adalah `{'svc__C': 10, 'svc__gamma': 0.01}`, dengan akurasi mencapai 97%.
-   - Confusion matrix dan hasil prediksi gambar juga ditampilkan.
-3. 
-Setelah itu, dilakukan ekstraksi fitur, dan beberapa pengujian model dilakukan dengan ekstraksi PCA (Principal Component Analysis) dengan reduksi dimensi hingga ke-n. Sebagai contoh, reduksi sebesar 49 komponen digunakan.
-
 ![Reduksi Dimensi PCA](docs/reduksi-dimensi-pca.png)
 
 Kemudian, Kelompok 4 melakukan perbandingan antara model SVM (Support Vector Machine) dan Naive Bayes. Berikut adalah hasil perbandingan tersebut:
@@ -71,6 +58,9 @@ Kemudian, Kelompok 4 melakukan perbandingan antara model SVM (Support Vector Mac
    ![Confusion Matrix](docs/hasil-3-multinomial.png)
    ![Prediksi Gambar](docs/hasil-3-multinomial-label.png)
 
+5. **Gaussian Naive Bayes**
+   - Model ini menggunakan jenis model Gaussian Naive Bayes dengan Alpha (n_features) di-set menjadi 1.0.
+   - Hasil akurasi data latih mencapai 81.97% dan data uji mencapai 81.87%.
 
 **Kesimpulan**
 
